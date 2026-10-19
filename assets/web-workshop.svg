@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+<rect width="800" height="500" fill="#f7ead7"/><circle cx="120" cy="90" r="65" fill="#f3d4a1"/>
+<rect x="120" y="90" width="560" height="300" rx="24" fill="#243047"/>
+<rect x="145" y="115" width="510" height="240" rx="10" fill="#ffffff"/>
+<rect x="145" y="115" width="510" height="42" rx="10" fill="#2855a6"/>
+<circle cx="170" cy="136" r="7" fill="#f6c56d"/><circle cx="192" cy="136" r="7" fill="#ffffff"/><circle cx="214" cy="136" r="7" fill="#c8d8ff"/>
+<rect x="190" y="195" width="180" height="18" rx="8" fill="#dbe2ee"/><rect x="190" y="230" width="390" height="14" rx="7" fill="#eaf0fb"/><rect x="190" y="260" width="320" height="14" rx="7" fill="#eaf0fb"/>
+<path d="M80 390 H720 L665 430 H135 Z" fill="#64748b"/><text x="400" y="475" text-anchor="middle" font-family="Arial" font-size="30" font-weight="bold" fill="#243047">WEB DEVELOPMENT WORKSHOP</text></svg>

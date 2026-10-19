@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+<rect width="800" height="500" fill="#e4f4ee"/><circle cx="400" cy="205" r="130" fill="#ffffff" stroke="#2855a6" stroke-width="9"/>
+<path d="M340 210 C300 155 345 95 400 95 C455 95 500 155 460 210 L440 240 H360 Z" fill="#f6c56d" stroke="#2855a6" stroke-width="8"/>
+<path d="M360 250 H440 M365 270 H435 M380 290 H420" stroke="#2855a6" stroke-width="12" stroke-linecap="round"/>
+<path d="M400 25 V55 M265 65 L285 85 M535 65 L515 85 M240 205 H270 M530 205 H560" stroke="#e6a23c" stroke-width="12" stroke-linecap="round"/>
+<text x="400" y="365" text-anchor="middle" font-family="Arial" font-size="32" font-weight="bold" fill="#243047">STUDENT INNOVATION FAIR</text>
+<text x="400" y="410" text-anchor="middle" font-family="Arial" font-size="22" fill="#64748b">Ideas become projects</text></svg>

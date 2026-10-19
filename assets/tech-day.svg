@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+<rect width="800" height="500" fill="#eaf0fb"/><circle cx="680" cy="90" r="85" fill="#d6e3ff"/>
+<rect x="110" y="120" width="580" height="250" rx="22" fill="#ffffff" stroke="#2855a6" stroke-width="8"/>
+<rect x="145" y="155" width="510" height="160" rx="10" fill="#2855a6"/>
+<path d="M365 195 L315 235 L365 275 M435 195 L485 235 L435 275" fill="none" stroke="#ffffff" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="320" y="370" width="160" height="25" rx="8" fill="#2855a6"/><text x="400" y="445" text-anchor="middle" font-family="Arial" font-size="32" font-weight="bold" fill="#243047">TECH &amp; INNOVATION DAY</text></svg>
