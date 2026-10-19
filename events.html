@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus Events Guide | Events</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+    <div class="header-inner">
+        <div>
+            <p class="site-name">Campus Events Guide</p>
+            <nav class="site-nav" aria-label="Main navigation">
+                <a href="index.html">Home</a>
+                <a href="events.html">Events</a>
+                <a href="event-details.html">Event Details</a>
+                <a href="schedule.html">Schedule</a>
+                <a href="registration.html">Register</a>
+            </nav>
+        </div>
+        <div class="theme-area">
+            <input class="theme-toggle" type="checkbox" id="dark-mode">
+            <label class="theme-toggle-label" for="dark-mode">Dark mode</label>
+        </div>
+    </div>
+</header>
+
+<main>
+
+    <section class="page-intro">
+        <p class="eyebrow">Browse the catalogue</p>
+        <h1>Campus Events</h1>
+        <p>Explore upcoming activities and look back at a past campus event.</p>
+    </section>
+
+    <section aria-labelledby="upcoming-heading">
+        <h2 class="section-heading" id="upcoming-heading">Upcoming Events</h2>
+        <div class="event-grid">
+            <article class="event-card">
+                <img src="assets/tech-day.svg" alt="Students sharing technology ideas at a campus event">
+                <div class="card-body">
+                    <span class="category">Technology</span>
+                    <h3>Campus Tech &amp; Innovation Day</h3>
+                    <p class="event-meta">November 12, 2026 · Main Auditorium</p>
+                    <p>Short talks and student ideas about technology and innovation.</p>
+                    <a class="button" href="event-details.html">View details</a>
+                </div>
+            </article>
+            <article class="event-card">
+                <img src="assets/web-workshop.svg" alt="Laptop showing a webpage">
+                <div class="card-body">
+                    <span class="category">Workshop</span>
+                    <h3>Web Development Workshop</h3>
+                    <p class="event-meta">November 15, 2026 · Computer Lab</p>
+                    <p>A beginner-friendly introduction to building web pages.</p>
+                    <a class="button button-secondary" href="registration.html">Registration page</a>
+                </div>
+            </article>
+            <article class="event-card">
+                <img src="assets/innovation-fair.svg" alt="Light bulb representing student ideas">
+                <div class="card-body">
+                    <span class="category">Student Activities</span>
+                    <h3>Student Innovation Fair</h3>
+                    <p class="event-meta">November 20, 2026 · University Hall</p>
+                    <p>Discover student projects and creative ideas.</p>
+                    <a class="button button-secondary" href="registration.html">Registration page</a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    
+    <section class="content-card spaced-section" aria-labelledby="past-heading">
+        <h2 id="past-heading">Past Event</h2>
+        <p>
+            <strong>Welcome Week Meetup</strong> —
+            October 1, 2026 · Student Center
+        </p>
+            <p class="muted">
+              A previous campus gathering to help students meet
+              and learn about student activities.
+    </p>
+</section>
+
+
+</main>
+
+<footer class="site-footer">
+    <div class="footer-inner">
+        <p>&copy; 2026 Campus Events Guide</p>
+        <div class="social-links" aria-label="Social links">
+            <a href="https://www.instagram.com/">Instagram</a>
+            <a href="https://www.linkedin.com/">LinkedIn</a>
+            <a href="https://www.facebook.com/">Facebook</a>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus Events Guide | Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+    <div class="header-inner">
+        <div>
+            <p class="site-name">Campus Events Guide</p>
+            <nav class="site-nav" aria-label="Main navigation">
+                <a href="index.html">Home</a>
+                <a href="events.html">Events</a>
+                <a href="event-details.html">Event Details</a>
+                <a href="schedule.html">Schedule</a>
+                <a href="registration.html">Register</a>
+            </nav>
+        </div>
+        <div class="theme-area">
+            <input class="theme-toggle" type="checkbox" id="dark-mode">
+            <label class="theme-toggle-label" for="dark-mode">Dark mode</label>
+        </div>
+    </div>
+</header>
+
+<main>
+
+    <section class="page-intro">
+        <p class="eyebrow">Save your place</p>
+        <h1>Event Registration</h1>
+        <p><strong>Campus Tech &amp; Innovation Day</strong></p>
+        <p>November 12, 2026 · 10:00 AM–1:00 PM · Main Auditorium</p>
+    </section>
+
+    <section class="form-card">
+        <h2>Attendee Information</h2>
+        <p class="muted">Complete the form below. Browser validation will check required fields and input formats. The form does not send or save submissions.</p>
+
+        <form action="#" method="get">
+            <div class="form-grid">
+                <div class="form-field">
+                    <label for="attendee-name">Full name *</label>
+                    <input type="text" id="attendee-name" name="attendee-name" required maxlength="60" pattern="[A-Za-z][A-Za-z .'-]{1,59}" placeholder="e.g. Marwa Omar">
+                </div>
+
+                <div class="form-field">
+                    <label for="attendee-email">Email address *</label>
+                    <input type="email" id="attendee-email" name="attendee-email" required maxlength="100" placeholder="name@example.com">
+                </div>
+
+                <div class="form-field">
+                    <label for="portfolio">Portfolio URL</label>
+                    <input type="url" id="portfolio" name="portfolio" placeholder="https://example.com">
+                </div>
+
+                <div class="form-field">
+                    <label for="guest-count">Number of guests *</label>
+                    <input type="number" id="guest-count" name="guest-count" min="0" max="3" value="0" required>
+                </div>
+
+                <div class="form-field">
+                    <label for="interest">Interest in technology (1–10)</label>
+                    <input type="range" id="interest" name="interest" min="1" max="10" value="5">
+                </div>
+
+                <div class="form-field">
+                    <label for="event-date">Event date *</label>
+                    <input type="date" id="event-date" name="event-date" value="2026-11-12" min="2026-11-12" max="2026-11-12" required>
+                </div>
+
+                <div class="form-field">
+                    <label for="badge-color">Badge color preference</label>
+                    <input type="color" id="badge-color" name="badge-color" value="#2855a6">
+                </div>
+
+                <div class="form-field">
+                    <label for="arrival-time">Expected arrival time *</label>
+                    <input type="time" id="arrival-time" name="arrival-time" min="09:30" max="12:00" required>
+                </div>
+
+                <div class="form-field full-width">
+                    <label for="student-card">Upload student card (optional)</label>
+                    <input type="file" id="student-card" name="student-card" accept="image/*,.pdf">
+                </div>
+
+                <fieldset class="form-field full-width">
+                    <legend>How did you hear about this event? *</legend>
+                    <div class="choice-row">
+                        <label><input type="radio" name="source" value="friends" required> Friends</label>
+                        <label><input type="radio" name="source" value="social-media"> Social media</label>
+                        <label><input type="radio" name="source" value="university"> University announcement</label>
+                    </div>
+                </fieldset>
+
+                <div class="form-field full-width">
+                    <label for="event-choice">Choose your event *</label>
+                    <select id="event-choice" name="event-choice" required>
+                        <option value="">Select an event</option>
+                        <option value="tech-day" selected>Campus Tech &amp; Innovation Day</option>
+                        <option value="web-workshop">Web Development Workshop</option>
+                        <option value="innovation-fair">Student Innovation Fair</option>
+                    </select>
+                </div>
+
+                <fieldset class="form-field full-width">
+                    <legend>Access needs</legend>
+                    <div class="choice-row">
+                        <label><input type="checkbox" name="access-needs" value="step-free"> Step-free access</label>
+                        <label><input type="checkbox" name="access-needs" value="reserved-seat"> Reserved seating</label>
+                        <label><input type="checkbox" name="access-needs" value="none"> No additional needs</label>
+                    </div>
+                </fieldset>
+
+                <div class="form-field full-width">
+                    <label for="notes">Additional notes</label>
+                    <textarea id="notes" name="notes" rows="4" maxlength="300" placeholder="Share any questions or notes (optional)"></textarea>
+                </div>
+
+                <div class="form-field full-width">
+                    <label class="choice-row"><input type="checkbox" name="confirm" value="yes" required> I confirm that the information above is correct. *</label>
+                </div>
+            </div>
+
+            <p><button type="submit">Check registration form</button></p>
+        </form>
+    </section>
+
+    <section class="content-card spaced-section">
+        <h2>Event Contact</h2>
+        <p>For questions about the event, contact the Campus Events Team.</p>
+        <p>Email: <a href="mailto:events@example.com">events@example.com</a></p>
+        <p class="muted">This is a sample contact address for the assignment; replace it if your instructor provides official details.</p>
+    </section>
+
+</main>
+
+<footer class="site-footer">
+    <div class="footer-inner">
+        <p>&copy; 2026 Campus Events Guide</p>
+        <div class="social-links" aria-label="Social links">
+            <a href="https://www.instagram.com/">Instagram</a>
+            <a href="https://www.linkedin.com/">LinkedIn</a>
+            <a href="https://www.facebook.com/">Facebook</a>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
